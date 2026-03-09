@@ -1,72 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>SEO & Digital Marketing</title>
+<title>SEO & Digital Marketing Agency</title>
+
+<meta name="description" content="Professional SEO and Digital Marketing services to grow your business online.">
 
 <style>
 
 body{
-font-family:Arial;
 margin:0;
-background:#f5f7fb;
+font-family:Arial, sans-serif;
+background:#f4f4f4;
 }
 
-/* Header */
-
 header{
-background:#0a2540;
+background:#0b2d4a;
 color:white;
 padding:20px;
 display:flex;
 justify-content:space-between;
+align-items:center;
 }
 
 nav a{
 color:white;
+margin:0 15px;
 text-decoration:none;
-margin-left:20px;
 font-weight:bold;
 }
 
-/* Hero Section */
-
 .hero{
-background:linear-gradient(90deg,#1a73e8,#00c6ff);
+background:url('https://images.unsplash.com/photo-1460925895917-afdab827c52f') center/cover;
 color:white;
 text-align:center;
-padding:100px 20px;
+padding:120px 20px;
 }
 
 .hero h1{
-font-size:45px;
+font-size:48px;
 }
 
-/* Services */
+.hero button{
+background:#ff7a18;
+border:none;
+padding:15px 25px;
+color:white;
+font-size:18px;
+cursor:pointer;
+}
 
-.container{
-display:flex;
+.section{
+padding:60px 20px;
+text-align:center;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
 gap:20px;
-padding:40px;
+margin-top:30px;
 }
 
 .card{
 background:white;
-padding:20px;
-border-radius:10px;
-box-shadow:0 4px 10px rgba(0,0,0,0.1);
+padding:30px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+border-radius:8px;
 }
 
-.card h3{
-color:#1a73e8;
+.about{
+background:white;
 }
 
-/* Footer */
+.contact{
+background:#eef2f5;
+}
 
 footer{
-background:#0a2540;
+background:#0b2d4a;
 color:white;
 text-align:center;
 padding:20px;
@@ -80,131 +95,81 @@ padding:20px;
 
 <header>
 
-<h2>Digital Marketing Hub</h2>
+<h2>SEO Agency</h2>
 
 <nav>
 <a href="#">Home</a>
-<a href="#">SEO</a>
-<a href="#">Services</a>
-<a href="#">Contact</a>
+<a href="#services">Services</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
 </nav>
 
 </header>
-
 
 <section class="hero">
 
-<h1>Learn SEO & Digital Marketing</h1>
+<h1>Grow Your Business With SEO</h1>
 
-<p>Improve your website ranking and grow your online business with powerful digital marketing strategies.</p>
+<p>Professional SEO & Digital Marketing Services</p>
+
+<button>Get Started</button>
 
 </section>
 
+<section class="section" id="services">
 
-<section class="container">
+<h2>Our Services</h2>
+
+<div class="services">
 
 <div class="card">
-
-<h3>Search Engine Optimization</h3>
-
-<p>SEO helps websites rank higher on search engines like Google.</p>
-
+<h3>SEO Optimization</h3>
+<p>Improve your Google rankings and organic traffic.</p>
 </div>
 
 <div class="card">
+<h3>Digital Marketing</h3>
+<p>Grow your brand with strategic marketing campaigns.</p>
+</div>
 
+<div class="card">
+<h3>Website Development</h3>
+<p>Professional websites designed for performance.</p>
+</div>
+
+<div class="card">
 <h3>Content Marketing</h3>
-
-<p>Content marketing helps attract users through valuable information.</p>
-
+<p>High-quality content to engage and convert visitors.</p>
 </div>
-
-<div class="card">
-
-<h3>Social Media Marketing</h3>
-
-<p>Promote your business on Facebook, Instagram and LinkedIn.</p>
 
 </div>
 
 </section>
 
+<section class="section about" id="about">
 
-<footer>
-
-<p>© 2026 Digital Marketing Website</p>
-
-</footer>
-
-
-</body>
-</html>
-<header>
-<h1>SEO & Digital Marketing</h1>
-<p>Grow Your Business Online</p>
-
-<nav>
-<a href="index.html">Home</a>
-<a href="seo.html">SEO</a>
-<a href="services.html">Services</a>
-<a href="contact.html">Contact</a>
-</nav>
-
-</header>
-<img src="seo.jpg" alt="SEO Marketing" width="600">
-<section>
-
-<h2>Our SEO Services</h2>
-
-<img src="seo.jpg" alt="SEO Services" width="500">
+<h2>About Our Agency</h2>
 
 <p>
-We provide professional SEO and digital marketing services
-to help businesses rank higher on Google.
+We help businesses grow online with modern SEO strategies,
+digital marketing campaigns, and professional websites.
 </p>
 
 </section>
-<footer>
 
-<p>© 2026 SEO & Digital Marketing</p>
+<section class="section contact" id="contact">
+
+<h2>Contact Us</h2>
 
 <p>Email: info@example.com</p>
-
-</footer>
-<!DOCTYPE html>
-<html>
-
-<head>
-<title>SEO & Digital Marketing</title>
-</head>
-
-<body>
-
-<header>
-<h1>SEO & Digital Marketing</h1>
-
-<nav>
-<a href="index.html">Home</a>
-<a href="seo.html">SEO</a>
-<a href="services.html">Services</a>
-<a href="contact.html">Contact</a>
-</nav>
-</header>
-
-<section>
-
-<h2>Welcome to Our Website</h2>
-
-<img src="seo.jpg" width="500">
-
-<p>
-We help businesses grow with SEO and digital marketing.
-</p>
+<p>Phone: +123456789</p>
 
 </section>
 
 <footer>
-<p>© 2026 SEO & Digital Marketing</p>
+
+<p>© 2026 SEO & Digital Marketing Agency</p>
+
 </footer>
 
 </body>
