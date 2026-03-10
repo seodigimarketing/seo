@@ -19,18 +19,35 @@ background:#f5f7fb;
 scroll-behavior:smooth;
 }
 
-/* HEADER */
+<header>
 
-header{
-background:#0b2d4a;
-color:white;
-padding:12px 40px;
-display:flex;
-align-items:center;
-justify-content:space-between;
-position:sticky;
-top:0;
-}
+<div class="logo">W.</div>
+
+<nav class="menu">
+
+<a href="#">Explore</a>
+<a href="#">Directory</a>
+<a href="#">Academy</a>
+<a href="#">Jobs</a>
+<a href="#">Market</a>
+
+</nav>
+
+<div class="search-box">
+
+<input type="text" placeholder="Search websites...">
+
+</div>
+
+<div class="auth">
+
+<a href="#" class="login">Log In</a>
+<a href="#" class="signup">Sign Up</a>
+<button class="pro">Be Pro</button>
+
+</div>
+
+
 
 /* LOGO */
 
@@ -250,5 +267,57 @@ margin-top:40px;
 </div>
 
 </section
+  header{
+background:white;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:12px 40px;
+box-shadow:0 2px 8px rgba(0,0,0,0.05);
+}
+
+.logo{
+font-size:26px;
+font-weight:bold;
+}
+
+.menu a{
+margin:0 10px;
+text-decoration:none;
+color:#333;
+font-weight:500;
+}
+
+.search-box input{
+padding:8px 14px;
+border-radius:20px;
+border:1px solid #ddd;
+width:200px;
+}
+
+.auth{
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.login{
+text-decoration:none;
+color:#333;
+}
+
+.signup{
+text-decoration:none;
+color:#333;
+}
+
+.pro{
+background:black;
+color:white;
+border:none;
+padding:8px 16px;
+border-radius:6px;
+cursor:pointer;
+}
 
 
