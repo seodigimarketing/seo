@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
 <meta charset="UTF-8">
@@ -7,15 +8,15 @@
 
 <title>SEO & Digital Marketing Agency</title>
 
-<meta name="description" content="Professional SEO and Digital Marketing services">
+<meta name="description" content="Professional SEO and Digital Marketing services for business growth">
 
 <style>
 
 body{
 margin:0;
 font-family:Arial, sans-serif;
+background:#f5f7fb;
 scroll-behavior:smooth;
-background:#f4f4f4;
 }
 
 /* HEADER */
@@ -38,10 +39,11 @@ font-size:20px;
 
 nav a{
 color:white;
-margin-left:15px;
+margin-left:20px;
 text-decoration:none;
 font-size:14px;
 font-weight:bold;
+transition:0.3s;
 }
 
 nav a:hover{
@@ -51,19 +53,40 @@ color:#ff7a18;
 /* HERO */
 
 .hero{
-background:linear-gradient(90deg,#0b2d4a,#1a73e8);
+background:linear-gradient(120deg,#0b2d4a,#1a73e8);
 color:white;
 text-align:center;
-padding:80px 20px;
+padding:90px 20px;
+}
+
+.hero h1{
+font-size:38px;
+}
+
+.hero p{
+font-size:18px;
+margin-top:10px;
 }
 
 .hero img{
-width:250px;
+width:230px;
 margin-top:20px;
 border-radius:8px;
 }
 
-/* SECTION */
+/* BUTTON */
+
+.btn{
+background:#ff7a18;
+color:white;
+padding:12px 20px;
+border:none;
+border-radius:4px;
+cursor:pointer;
+margin-top:20px;
+}
+
+/* SECTIONS */
 
 .section{
 padding:60px 20px;
@@ -71,6 +94,7 @@ text-align:center;
 }
 
 .section h2{
+font-size:30px;
 margin-bottom:20px;
 }
 
@@ -78,8 +102,10 @@ margin-bottom:20px;
 
 .services{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
 gap:20px;
+max-width:1000px;
+margin:auto;
 }
 
 .card{
@@ -87,6 +113,20 @@ background:white;
 padding:25px;
 border-radius:8px;
 box-shadow:0 0 10px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+/* ABOUT */
+
+.about{
+max-width:800px;
+margin:auto;
+font-size:17px;
+line-height:1.6;
 }
 
 /* CONTACT */
@@ -100,6 +140,8 @@ input, textarea{
 width:100%;
 padding:10px;
 margin:10px 0;
+border:1px solid #ccc;
+border-radius:4px;
 }
 
 /* FOOTER */
@@ -110,6 +152,7 @@ color:white;
 text-align:center;
 padding:20px;
 margin-top:40px;
+font-size:14px;
 }
 
 </style>
@@ -133,11 +176,15 @@ margin-top:40px;
 
 <section class="hero" id="home">
 
-<h1>Grow Your Business With SEO</h1>
+<h1>Grow Your Business Online</h1>
 
 <p>Professional SEO & Digital Marketing Services</p>
 
 <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f">
+
+<br>
+
+<button class="btn">Get Started</button>
 
 </section>
 
@@ -149,22 +196,22 @@ margin-top:40px;
 
 <div class="card">
 <h3>SEO Optimization</h3>
-<p>Improve Google rankings and increase organic traffic.</p>
+<p>Improve Google ranking and get more organic traffic.</p>
 </div>
 
 <div class="card">
 <h3>Digital Marketing</h3>
-<p>Professional marketing strategies for business growth.</p>
+<p>Promote your brand with modern marketing strategies.</p>
 </div>
 
 <div class="card">
 <h3>Website Development</h3>
-<p>Fast and responsive websites for modern businesses.</p>
+<p>Professional and responsive websites for businesses.</p>
 </div>
 
 <div class="card">
 <h3>Content Marketing</h3>
-<p>High quality content to attract more customers.</p>
+<p>High quality content to attract your target audience.</p>
 </div>
 
 </div>
@@ -175,10 +222,13 @@ margin-top:40px;
 
 <h2>About Our Agency</h2>
 
+<div class="about">
+
 <p>
-We are a professional digital marketing agency helping businesses
-grow online using SEO, content marketing and modern web development.
+We are a professional digital marketing agency helping businesses grow online through modern SEO strategies, digital marketing campaigns and high performance websites.
 </p>
+
+</div>
 
 </section>
 
@@ -194,7 +244,7 @@ grow online using SEO, content marketing and modern web development.
 
 <textarea placeholder="Your Message"></textarea>
 
-<input type="submit" value="Send Message">
+<button class="btn">Send Message</button>
 
 </form>
 
@@ -208,5 +258,4 @@ grow online using SEO, content marketing and modern web development.
 
 </body>
 </html>
-
 
